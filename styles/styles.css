@@ -17,6 +17,9 @@ body{
     flex-grow: 1;
     margin: 50px 0;
 }
+.featured{
+    display: flex;
+}
 
 h1{
     color: rgb(21, 177, 21);
