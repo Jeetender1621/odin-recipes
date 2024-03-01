@@ -13,11 +13,9 @@ body{
     justify-content: space-between;
     height: 100vh;
 }
-
-footer{
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 16px;
+.container{
+    flex-grow: 1;
+    margin: 50px 0;
 }
 
 h1{
@@ -26,7 +24,6 @@ h1{
     font-size: 40px;
     text-align: center;
     padding: 30px;
-    margin-bottom: 40px;
     font-weight:900;
     background-color: rgb(255, 255, 255);
     letter-spacing: 0.75px;
@@ -42,7 +39,7 @@ h2{
 }
 li{
     list-style-type: none;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-size: 20px;
     
 }
@@ -83,10 +80,34 @@ img{
 .ingredients{
     margin-bottom: 40px;
 }
+.ingredients li{
+    list-style-type: disc;
+    margin-left: 25px;
+}
+.ingredients li::marker {
+    color: rgb(21, 177, 21);
+  }
+
+.steps li{
+    list-style-type:decimal;
+    margin-left: 25px;
+}
+
+.steps li::marker{
+    font-weight: bold;
+}
+
+.cooks-notes{
+    color:rgb(21, 177, 21);
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 16px;
+    font-size: 20px;
+}
 
 .copyright{
-    color: rgb(21, 177, 21); ;
-}
-.container{
-    flex-grow: 1;
+    color: rgb(21, 177, 21);
 }
